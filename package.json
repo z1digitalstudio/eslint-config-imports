@@ -1,0 +1,22 @@
+{
+  "author": "Pablo Rodríguez Caballero <pablo@z1.digital>",
+  "license": "MIT",
+  "main": "index.js",
+  "name": "@z1digitalstudio/eslint-config-imports",
+  "version": "1.0.0",
+  "scripts": {
+    "lint": "eslint .eslintrc.js .prettierrc.js index.js --ignore-pattern '!*' --max-warnings=0",
+    "lint:fix": "yarn lint --fix"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.18.0",
+    "eslint-plugin-import": ">=2.22.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.18.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1"
+  }
+}
